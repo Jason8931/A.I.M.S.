@@ -1,0 +1,161 @@
+html, body{
+    background-color: #212429;
+}
+
+.content{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+.hat{
+    height: 64px;
+    width: 100%;
+    background-color: #6f2cf5;
+}
+
+.content-hat{
+    margin: 0 auto;
+    height: 64px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AIMP{
+    color: #e5e5e5;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo{
+    height: 40px;
+    border-radius: 5px;
+}
+
+.serch-wind{
+    margin-left: 20px;
+}
+
+.searchInput{
+    border-radius: 15px;
+    border: 2px;
+}
+
+.searchBTN{
+    border-radius: 15px;
+    background-color: #4f22a9;
+    color: #e5e5e5;
+}
+.highlight {
+    background-color: red;
+    transition: background-color 1s ease; /* Плавное исчезновение фона */
+}
+/* Класс для плавного исчезновения */
+.fade-out {
+    background-color: transparent; /* Фон исчезает, но текст остаётся */
+}
+
+.description{
+    color: #e5e5e5;
+    text-align: center;
+}
+
+.school-content{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    height: auto;
+    flex-wrap:wrap ;
+}
+.card {
+    width: 390px;
+    height: 400px;
+    margin-bottom: 8px;
+
+}
+.number-school {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.gorod{
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+}
+
+.img-map{
+    height: 300px;
+    width: 389px;
+}
+
+.btn{
+    background-color: #6f2cf5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #4f22a9;
+    color: white;
+    font-size: 20px;
+}
+
+
+.cart-school {
+    background-color: #ffffff;
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.cabinet-number {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.temp {
+    margin: 0;
+    font-size: 15px;
+}
+.vlaj {
+    margin: 0;
+    font-size: 15px;
+}
+
+.cabinet-content{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    height: auto;
+    flex-wrap:wrap ;
+}
+
+.back{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: #4f22a9;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+    border-radius:15px;
+    transition: background-color 0.3s ease;
+}
+
+.back:hover{
+    background-color: #361e67;
+}
